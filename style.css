@@ -1,0 +1,82 @@
+/* ---------------------
+        Font Import  
+   ---------------------*/
+   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+   /* -----------------------
+           Variable CSS 
+       ----------------------*/
+   
+   :root {
+       --pink: #fd0155;
+       --rating: orange;
+       --dark: #000130;
+   }
+   
+   /* -----------------------
+               Basic Styles
+       ----------------------*/
+   
+   * {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+   html {
+       scroll-behavior: smooth;
+   }
+   body {
+       font-family: 'Roboto', sans-serif;
+       background-color: #f1f1f1;
+   }
+   a {
+       text-decoration: none;
+   }
+   img {
+       cursor: pointer;
+   }
+   .container {
+       width: 75%;
+       margin: 30px auto;
+   }
+   .color {
+       color: var(--pink);
+   }
+   
+
+   /*---------------------- 
+          header style 
+   ---------------------- */
+
+   .navbar{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: black;
+    color: white;
+    align-items: center;
+    border-radius: 20PX;
+    column-gap: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+   }
+
+   .nav-info{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    row-gap: 30px;
+   }
+   .nav-info h1{
+    font-weight: 700;
+    font-size: 37px;
+   }
+   .btn-primary{
+    background-color: #DD0000;
+    color: white;
+    width: 120px;
+    border-radius: 5px;
+    padding: 7px;
+   }
+   
+
+   
